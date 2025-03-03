@@ -1,0 +1,30 @@
+\documentclass{article}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, positioning}
+
+\begin{document}
+
+\begin{center}
+\begin{tikzpicture}[
+    node distance=1.5cm and 2cm, 
+    every node/.style={draw, circle, minimum size=1cm, inner sep=2pt}, 
+    >={Latex} % Arrow style
+]
+
+% Nodes
+\node (CR) {Complicated Reproduction};
+\node[above right=of CR] (SSA) {Stabilizing Selection in Adults};
+\node[below right=of CR] (SSO) {Stabilizing Selection in Offspring};
+\node[right=of SSA] (DFV) {Decreased Female Variability};
+\node[right=of SSO] (IFV) {Increased Female Variability};
+
+% Arrows
+\draw[->] (SSA) -- (DFV);
+\draw[->] (SSO) -- (IFV);
+\draw[->] (CR) -- (SSA);
+\draw[->] (CR) -- (SSO);
+
+\end{tikzpicture}
+\end{center}
+
+\end{document}

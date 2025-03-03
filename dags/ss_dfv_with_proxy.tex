@@ -1,0 +1,28 @@
+\documentclass{article}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, positioning}
+
+\begin{document}
+
+\begin{center}
+\begin{tikzpicture}[
+    node distance=1.5cm and 2cm, 
+    every node/.style={draw, circle, minimum size=1cm, inner sep=2pt}, 
+    >={Latex} % Arrow style
+]
+
+% Nodes
+\node (CR) {Complicated Reproduction};
+\node[below right=of CR] (LP) {Long Gestation/Rearing};
+\node[above right=of CR] (SS) {Stabilizing Selection};
+\node[right=of SS] (DFV) {Decreased Female Variability};
+
+% Arrows
+\draw[->] (SS) -- (DFV);
+\draw[->] (CR) -- (LP);
+\draw[->] (CR) -- (SS);
+
+\end{tikzpicture}
+\end{center}
+
+\end{document}

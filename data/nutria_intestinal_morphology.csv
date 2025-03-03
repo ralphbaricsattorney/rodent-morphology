@@ -1,0 +1,8 @@
+Measurement,Extensive - Male (n=12),Extensive - Female (n=18),Intensive - Male (n=10),Intensive - Female (n=10),"Feeding Regime (F, P)","Sex (F, P)","Feeding * Sex (F, P)"
+Stomach greater curvature (mm),285 ± 20,273 ± 29,271 ± 21,277 ± 30,"F = 8.545, P = 0.005","F = 0.508, P = 0.480","F = 2.961, P = 0.092"
+Stomach lesser curvature (mm),39 ± 8,46 ± 7,36 ± 7,44 ± 9,"F = 0.012, P = 0.912","F = 7.983, P = 0.007","F = 0.039, P = 0.844"
+Small intestine (mm),4570 ± 374,4396 ± 393,4862 ± 737,4532 ± 634,"F = 5.963, P = 0.019","F = 0.411, P = 0.525","F = 0.003, P = 0.955"
+Caecum (mm),416 ± 37,425 ± 40,427 ± 68,437 ± 76,"F = 8.173, P = 0.006","F = 2.899, P = 0.096","F = 0.355, P = 0.554"
+Proximal colon (mm),733 ± 46,688 ± 97,774 ± 78,773 ± 80,"F = 2.584, P = 0.115","F = 0.092, P = 0.764","F = 1.535, P = 0.222"
+Distal colon and rectum (mm),442 ± 33,433 ± 98,336 ± 78,361 ± 80,"F = 7.402, P = 0.009","F = 1.973, P = 0.167","F = 1.690, P = 0.200"
+Total intestine (mm),6161 ± 380,5942 ± 435,6399 ± 843,6103 ± 757,"F = 9.520, P = 0.003","F = 0.079, P = 0.781","F = 0.128, P = 0.722"
